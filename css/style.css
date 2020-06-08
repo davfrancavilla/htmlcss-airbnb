@@ -2,7 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana;
 }
+
+
+nav {
+    background-color: lightgrey;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+ul {
+    display: inline;
+}
+
+.user {
+    position: absolute;
+    right: 10px;
+    margin-right: 10px;
+}
+
+li {
+    display: inline-block;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    line-height: 50px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+li:hover{
+    border-bottom: 2px solid #4d4d4d;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+a:visited, a:link{
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+    top: 55px;
+}
+
 
 section {
     height: 100vh;
@@ -56,7 +104,6 @@ section {
 span {
     color: white;
     font-size: 50px;
-    font-family: Verdana;
     text-shadow: 3px 3px black;
     position: absolute;
     top: 50%;
